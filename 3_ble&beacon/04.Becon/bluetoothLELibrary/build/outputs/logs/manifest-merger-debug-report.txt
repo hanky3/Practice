@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:2:1-18:12
+	package
+		ADDED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml
+application
+ADDED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:11:5-16:19
+	android:label
+		ADDED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\android_studio_ide_3.1.2\3_ble&beacon\04.Becon\bluetoothLELibrary\src\main\AndroidManifest.xml:15:9-40

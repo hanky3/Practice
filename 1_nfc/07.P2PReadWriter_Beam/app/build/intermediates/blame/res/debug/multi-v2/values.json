@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\test\\nfc_lab\\07.P2PReadWriter_Beam\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\test\\nfc_lab\\07.P2PReadWriter_Beam\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "6,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "287,578",
+                        "endLines": "12,15",
+                        "endColumns": "12,12",
+                        "endOffsets": "573,733"
+                    }
+                },
+                {
+                    "source": "C:\\test\\nfc_lab\\07.P2PReadWriter_Beam\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,5,2,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "123,232,55,178",
+                        "endColumns": "54,54,67,53",
+                        "endOffsets": "173,282,118,227"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,110,165,233",
+                        "endColumns": "54,54,67,53",
+                        "endOffsets": "105,160,228,282"
+                    }
+                }
+            ]
+        }
+    ]
+}

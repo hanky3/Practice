@@ -1,0 +1,4 @@
+#Thu Jun 21 14:30:37 KST 2018
+base.0=C\:\\android_studio_ide_3.1.2\\3_ble&beacon\\04.Becon\\_04Becon\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex

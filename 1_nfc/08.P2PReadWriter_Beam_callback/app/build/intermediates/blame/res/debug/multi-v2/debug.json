@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\android_studio_ide_3.1.2\\1_nfc\\08.P2PReadWriter_Beam_callback\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\android_studio_ide_3.1.2\\1_nfc\\08.P2PReadWriter_Beam_callback\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "6,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "296,587",
+                        "endLines": "12,15",
+                        "endColumns": "12,12",
+                        "endOffsets": "582,742"
+                    }
+                },
+                {
+                    "source": "C:\\android_studio_ide_3.1.2\\1_nfc\\08.P2PReadWriter_Beam_callback\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,5,2,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "123,241,55,187",
+                        "endColumns": "63,54,67,53",
+                        "endOffsets": "182,291,118,236"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,119,174,242",
+                        "endColumns": "63,54,67,53",
+                        "endOffsets": "114,169,237,291"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\test\\nfc_lab\\JaenCardReaderProj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\test\\nfc_lab\\JaenCardReaderProj\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "19,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "701,642",
+                        "endColumns": "57,58",
+                        "endOffsets": "754,696"
+                    },
+                    "to": {
+                        "startLines": "9,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "410,516",
+                        "endColumns": "57,58",
+                        "endOffsets": "463,570"
+                    }
+                },
+                {
+                    "source": "C:\\test\\nfc_lab\\JaenCardReaderProj\\app\\src\\main\\res\\values\\base-template-styles.xml",
+                    "from": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "677",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "753"
+                    },
+                    "to": {
+                        "startLines": "29",
+                        "startColumns": "4",
+                        "startOffsets": "1310",
+                        "endLines": "30",
+                        "endColumns": "12",
+                        "endOffsets": "1386"
+                    }
+                },
+                {
+                    "source": "C:\\test\\nfc_lab\\JaenCardReaderProj\\app\\src\\main\\res\\values\\base-strings.xml",
+                    "from": {
+                        "startLines": "18,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "647,695",
+                        "endLines": "18,32",
+                        "endColumns": "47,13",
+                        "endOffsets": "690,1268"
+                    },
+                    "to": {
+                        "startLines": "10,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "468,575",
+                        "endLines": "10,25",
+                        "endColumns": "47,13",
+                        "endOffsets": "511,1148"
+                    }
+                },
+                {
+                    "source": "C:\\test\\nfc_lab\\JaenCardReaderProj\\app\\src\\main\\res\\values\\fragmentview_strings.xml",
+                    "from": {
+                        "startLines": "17,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "670,617",
+                        "endColumns": "52,52",
+                        "endOffsets": "718,665"
+                    },
+                    "to": {
+                        "startLines": "26,27",
+                        "startColumns": "4,4",
+                        "startOffsets": "1153,1206",
+                        "endColumns": "52,52",
+                        "endOffsets": "1201,1254"
+                    }
+                },
+                {
+                    "source": "C:\\test\\nfc_lab\\JaenCardReaderProj\\app\\src\\main\\res\\values\\template-styles.xml",
+                    "from": {
+                        "startLines": "24,22,27,29,34",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "783,728,864,893,1090",
+                        "endLines": "24,22,27,32,39",
+                        "endColumns": "51,53,27,12,12",
+                        "endOffsets": "830,777,887,1084,1363"
+                    },
+                    "to": {
+                        "startLines": "28,31,32,33,37",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "1259,1391,1444,1471,1667",
+                        "endLines": "28,31,32,36,42",
+                        "endColumns": "50,52,26,12,12",
+                        "endOffsets": "1305,1439,1466,1662,1940"
+                    }
+                },
+                {
+                    "source": "C:\\test\\nfc_lab\\JaenCardReaderProj\\app\\src\\main\\res\\values\\template-dimens.xml",
+                    "from": {
+                        "startLines": "28,24,23,22,21,20,29",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "959,880,836,791,748,706,1029",
+                        "endColumns": "69,42,43,44,42,41,67",
+                        "endOffsets": "1024,918,875,831,786,743,1092"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,168,212,257,300,342",
+                        "endColumns": "69,42,43,44,42,41,67",
+                        "endOffsets": "120,163,207,252,295,337,405"
+                    }
+                }
+            ]
+        }
+    ]
+}

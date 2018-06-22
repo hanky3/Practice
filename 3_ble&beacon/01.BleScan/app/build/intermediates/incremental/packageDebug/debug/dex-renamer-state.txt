@@ -1,0 +1,4 @@
+#Sun Mar 04 22:04:07 KST 2018
+base.0=C\:\\test\\nfc_lab\\01.BleScan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

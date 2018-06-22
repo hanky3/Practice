@@ -1,0 +1,4 @@
+#Tue Jun 19 15:33:01 KST 2018
+base.0=C\:\\android_studio_ide_3.1.2\\1_nfc\\08.P2PReadWriter_Beam_callback\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex

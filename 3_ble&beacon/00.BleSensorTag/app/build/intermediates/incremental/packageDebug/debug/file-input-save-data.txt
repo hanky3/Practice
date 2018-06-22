@@ -1,0 +1,35 @@
+#Internal package file, do not edit.
+#Sun Mar 04 22:02:48 KST 2018
+7.path=about.html
+2.base=C\:\\test\\nfc_lab\\00.BleSensorTag\\app\\build\\intermediates\\assets\\debug
+5.set=ASSET
+0.path=help_device.html
+2.baseType=DIRECTORY
+3.base=C\:\\test\\nfc_lab\\00.BleSensorTag\\app\\build\\intermediates\\assets\\debug
+7.baseType=DIRECTORY
+2.set=ASSET
+1.path=SensorTagImgA.bin
+4.base=C\:\\test\\nfc_lab\\00.BleSensorTag\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+7.set=ASSET
+count=8
+5.baseType=DIRECTORY
+2.path=about.css
+5.base=C\:\\test\\nfc_lab\\00.BleSensorTag\\app\\build\\intermediates\\assets\\debug
+4.set=DEX
+3.path=help.css
+6.base=C\:\\test\\nfc_lab\\00.BleSensorTag\\app\\build\\intermediates\\assets\\debug
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=classes.dex
+7.base=C\:\\test\\nfc_lab\\00.BleSensorTag\\app\\build\\intermediates\\assets\\debug
+6.set=ASSET
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=help_scan.html
+0.base=C\:\\test\\nfc_lab\\00.BleSensorTag\\app\\build\\intermediates\\assets\\debug
+0.baseType=DIRECTORY
+3.set=ASSET
+6.path=SensorTagImgB.bin
+1.base=C\:\\test\\nfc_lab\\00.BleSensorTag\\app\\build\\intermediates\\assets\\debug
+4.baseType=DIRECTORY
+0.set=ASSET

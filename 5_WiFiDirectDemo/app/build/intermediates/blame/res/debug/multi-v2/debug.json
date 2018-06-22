@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\android_studio_ide_3.1.2\\WiFiDirectDemo\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\android_studio_ide_3.1.2\\WiFiDirectDemo\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,11,5,6,4,8,12,3,7,14,15,16,10,13,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,502,220,276,161,397,629,104,338,846,916,956,468,743,432",
+                        "endColumns": "48,126,55,61,58,34,113,56,58,69,39,45,33,102,35",
+                        "endOffsets": "99,624,271,333,215,427,738,156,392,911,951,997,497,841,463"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "264,313,440,496,558,617,644,758,815,874,944,984,1030,1064,1167",
+                        "endColumns": "48,126,55,61,58,26,113,56,58,69,39,45,33,102,35",
+                        "endOffsets": "308,435,491,553,612,639,753,810,869,939,979,1025,1059,1162,1198"
+                    }
+                },
+                {
+                    "source": "C:\\android_studio_ide_3.1.2\\WiFiDirectDemo\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "18,17",
+                        "startColumns": "4,4",
+                        "startOffsets": "712,662",
+                        "endColumns": "49,49",
+                        "endOffsets": "757,707"
+                    },
+                    "to": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "164,214",
+                        "endColumns": "49,49",
+                        "endOffsets": "209,259"
+                    }
+                },
+                {
+                    "source": "C:\\android_studio_ide_3.1.2\\WiFiDirectDemo\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "108,55",
+                        "endColumns": "55,52",
+                        "endOffsets": "159,103"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,111",
+                        "endColumns": "55,52",
+                        "endOffsets": "106,159"
+                    }
+                }
+            ]
+        }
+    ]
+}

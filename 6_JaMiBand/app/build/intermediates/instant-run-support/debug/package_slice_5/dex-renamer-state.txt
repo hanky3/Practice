@@ -1,0 +1,4 @@
+#Thu Jun 21 10:44:29 KST 2018
+base.0=C\:\\android_studio_ide_3.1.2\\JaMiBand\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex

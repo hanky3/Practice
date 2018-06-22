@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\test\\nfc_lab\\05.TagWriter\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\test\\nfc_lab\\05.TagWriter\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,5,2,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "123,224,55,170",
+                        "endColumns": "46,54,67,53",
+                        "endOffsets": "165,274,118,219"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,102,157,225",
+                        "endColumns": "46,54,67,53",
+                        "endOffsets": "97,152,220,274"
+                    }
+                },
+                {
+                    "source": "C:\\test\\nfc_lab\\05.TagWriter\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "6,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "279,570",
+                        "endLines": "12,15",
+                        "endColumns": "12,12",
+                        "endOffsets": "565,725"
+                    }
+                }
+            ]
+        }
+    ]
+}

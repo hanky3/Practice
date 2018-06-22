@@ -1,0 +1,4 @@
+#Sun Mar 04 21:40:52 KST 2018
+base.0=C\:\\test\\nfc_lab\\07.P2PReadWriter_Beam\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
