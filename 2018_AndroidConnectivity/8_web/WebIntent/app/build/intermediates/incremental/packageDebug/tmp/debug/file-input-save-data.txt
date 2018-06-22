@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Jun 22 13:33:37 KST 2018
+0.baseType=DIRECTORY
+0.base=C\:\\android_studio_ide_3.1.2\\conn_workspace\\WebIntent\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WebCodeApp</string>
+    <string name="hello">웹자원(URI)을 입력하고 연동버튼을 눌러주세요!</string>
+</resources>

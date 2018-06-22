@@ -1,0 +1,4 @@
+#Fri Jun 22 13:33:37 KST 2018
+base.0=C\:\\android_studio_ide_3.1.2\\conn_workspace\\WebIntent\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
