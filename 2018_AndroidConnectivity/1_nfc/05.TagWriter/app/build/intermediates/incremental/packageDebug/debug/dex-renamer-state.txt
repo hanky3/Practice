@@ -1,4 +1,0 @@
-#Sun Mar 04 21:39:55 KST 2018
-base.0=C\:\\test\\nfc_lab\\05.TagWriter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex

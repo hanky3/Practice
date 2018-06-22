@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Sun Mar 04 22:04:07 KST 2018
-0.baseType=DIRECTORY
-0.base=C\:\\test\\nfc_lab\\01.BleScan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-0.path=classes.dex
-0.set=DEX
-count=1

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">MyNfcToBluetooth</string>
-    <string name="info">안드로이드빔이 작동하도록 장비를 대고 전송할 Data(화면)을 push 하세요..딩딩딩</string>
-    <string name="menu_settings">Android Beam settings</string>
-</resources>
