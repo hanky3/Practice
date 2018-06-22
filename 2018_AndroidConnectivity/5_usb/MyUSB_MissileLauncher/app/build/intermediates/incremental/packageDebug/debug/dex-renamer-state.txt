@@ -1,0 +1,4 @@
+#Sun Mar 04 22:16:07 KST 2018
+base.0=C\:\\test\\nfc_lab\\MyUSB_MissileLauncher\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\android_studio_ide_3.1.2\\JaMiBand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\android_studio_ide_3.1.2\\JaMiBand\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,4,7,5,8,6",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "56,100,299,153,365,225",
+                        "endColumns": "43,52,65,71,74,73",
+                        "endOffsets": "95,148,360,220,435,294"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,99,152,218,290,365",
+                        "endColumns": "43,52,65,71,74,73",
+                        "endOffsets": "94,147,213,285,360,434"
+                    }
+                },
+                {
+                    "source": "C:\\android_studio_ide_3.1.2\\JaMiBand\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "245,623",
+                        "endLines": "13,18",
+                        "endColumns": "12,12",
+                        "endOffsets": "585,778"
+                    },
+                    "to": {
+                        "startLines": "8,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "439,784",
+                        "endLines": "15,18",
+                        "endColumns": "12,12",
+                        "endOffsets": "779,939"
+                    }
+                }
+            ]
+        }
+    ]
+}

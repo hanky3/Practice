@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\android_studio_ide_3.1.2\\conn_workspace\\WebCodeProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\android_studio_ide_3.1.2\\conn_workspace\\WebCodeProject\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "117,55",
+                        "endColumns": "47,61",
+                        "endOffsets": "160,112"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,103",
+                        "endColumns": "47,61",
+                        "endOffsets": "98,160"
+                    }
+                }
+            ]
+        }
+    ]
+}

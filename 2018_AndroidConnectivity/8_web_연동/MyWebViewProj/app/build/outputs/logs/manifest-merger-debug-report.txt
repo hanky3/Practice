@@ -1,0 +1,63 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:2:1-19:12
+	package
+		ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:3:7-44
+		INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml
+		INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:5:7-32
+		INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml
+		INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:4:7-30
+		INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml
+		INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:6:5-44
+INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:6:5-44
+INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:6:5-44
+INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:6:5-44
+INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:6:5-44
+	android:targetSdkVersion
+		INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml
+		ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:6:5-44
+		INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:6:15-41
+		INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml
+		INJECTED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:7:5-83
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:7:22-64
+application
+ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:9:5-18:19
+	android:label
+		ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:9:48-80
+	android:icon
+		ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:9:18-47
+activity#com.androidjava.app.webview.MyWebViewProjActivity
+ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:10:9-16:20
+	android:label
+		ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:11:19-51
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:10:19-56
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\conn_workspace\MyWebViewProj\app\src\main\AndroidManifest.xml:14:27-74
