@@ -1,0 +1,237 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:2:1-136:12
+	package
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml
+		INJECTED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml
+		INJECTED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml
+		INJECTED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:7:5-69
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:7:22-66
+uses-permission#android.permission.CAMERA
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:8:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:9:22-63
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.INTERNET
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:14:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:17:22-65
+uses-permission#android.permission.NFC
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:18:5-62
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:18:22-59
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:21:2-70
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:21:19-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:22:22-65
+uses-feature#android.hardware.bluetooth.ble
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:23:5-25:35
+	android:required
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:25:9-32
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:24:9-54
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:26:6-28:35
+	android:required
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:28:9-32
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:27:9-53
+uses-feature#android.hardware.nfc.hce
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:32:5-34:35
+	android:required
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:34:9-32
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:33:9-48
+uses-feature#android.hardware.camera
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:36:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:42:9-53
+uses-sdk
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:45:5-47:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\6818ffe81854957c42587d50996174e501dd55b1\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\f39339050d4de673711c5ba4d18ce3fcd9239210\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\f6649a964a16a70e5de2dc5f6ad0f793b1ecf93e\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\115f4f0db8660ff44edff1e904aca76a28372d81\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\1a774d05e413e55818f55988943f80ae96ec08f8\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\618f18773e19f0052e3e394cda58f79a98a624f6\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\e7d8004ec0abbcff6b225fd9535904c85d6cf808\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\cceb07bc8be3abdf6d6a0004c882ea39b28dd91d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\c228344f26b7847efcb2ca8568bf46906678b011\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hjh\.android\build-cache\91c1fdc63ba32671ee724eabe7ff7effb1eebee7\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\6818ffe81854957c42587d50996174e501dd55b1\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:47:9-38
+		INJECTED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml
+		INJECTED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:46:9-35
+		INJECTED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml
+		INJECTED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:48:5-75
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:48:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:49:5-75
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:49:22-73
+uses-permission#android.permission.READ_SMS
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:50:5-67
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:50:22-64
+application
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:53:5-134:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\6818ffe81854957c42587d50996174e501dd55b1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\f39339050d4de673711c5ba4d18ce3fcd9239210\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\f6649a964a16a70e5de2dc5f6ad0f793b1ecf93e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\115f4f0db8660ff44edff1e904aca76a28372d81\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\1a774d05e413e55818f55988943f80ae96ec08f8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\618f18773e19f0052e3e394cda58f79a98a624f6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\e7d8004ec0abbcff6b225fd9535904c85d6cf808\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\cceb07bc8be3abdf6d6a0004c882ea39b28dd91d\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\c228344f26b7847efcb2ca8568bf46906678b011\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hjh\.android\build-cache\91c1fdc63ba32671ee724eabe7ff7effb1eebee7\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:56:9-41
+	android:allowBackup
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:54:9-35
+	android:icon
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:55:9-43
+	android:theme
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:57:9-40
+activity#com.jaen.o2o.jaenpay.MainActivity
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:58:9-66:20
+	android:label
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:60:13-45
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:59:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:61:13-65:29
+action#android.intent.action.MAIN
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:62:17-69
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:62:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:64:17-77
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:64:27-74
+activity#com.jaen.o2o.jaenpay.CardScanActivity
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:67:9-68:20
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:67:19-50
+activity#io.card.payment.CardIOActivity
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:69:9-71:66
+	android:configChanges
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:71:13-63
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:70:13-58
+activity#com.jaen.o2o.jaenpay.SaveMyCardActivity
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:72:9-73:20
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:72:19-52
+activity#io.card.payment.DataEntryActivity
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:74:9-76:52
+	android:screenOrientation
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:76:13-49
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:75:13-61
+activity#com.jaen.o2o.jaenpay.hce.HCEMainActivity
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:77:9-66
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:77:19-54
+service#com.jaen.o2o.jaenpay.beacon.BeaconService
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:79:9-65
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:79:18-54
+activity#com.jaen.o2o.jaenpay.nfc.TagReadActivity
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:81:9-133:20
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:81:19-54
+intent-filter#android.intent.category.DEFAULT+android.nfc.action.NDEF_DISCOVERED
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:82:13-85:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:83:25-74
+category#android.intent.category.DEFAULT
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:84:27-73
+intent-filter#android.intent.category.DEFAULT+android.nfc.action.TECH_DISCOVERED
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:118:13-121:29
+action#android.nfc.action.TECH_DISCOVERED
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:119:17-77
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:119:25-74
+meta-data#android.nfc.action.TECH_DISCOVERED
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:123:13-125:59
+	android:resource
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:125:17-56
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:124:17-66
+intent-filter#android.intent.category.DEFAULT+android.nfc.action.TAG_DISCOVERED
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:127:13-130:29
+action#android.nfc.action.TAG_DISCOVERED
+ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:128:17-76
+	android:name
+		ADDED from C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\src\main\AndroidManifest.xml:128:25-73
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\6818ffe81854957c42587d50996174e501dd55b1\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\f39339050d4de673711c5ba4d18ce3fcd9239210\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\f6649a964a16a70e5de2dc5f6ad0f793b1ecf93e\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\115f4f0db8660ff44edff1e904aca76a28372d81\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\1a774d05e413e55818f55988943f80ae96ec08f8\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\618f18773e19f0052e3e394cda58f79a98a624f6\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\e7d8004ec0abbcff6b225fd9535904c85d6cf808\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\cceb07bc8be3abdf6d6a0004c882ea39b28dd91d\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\c228344f26b7847efcb2ca8568bf46906678b011\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\6818ffe81854957c42587d50996174e501dd55b1\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\hjh\.android\build-cache\6818ffe81854957c42587d50996174e501dd55b1\output\AndroidManifest.xml:26:9-47

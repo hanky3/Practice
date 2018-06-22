@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\libs\guava-10.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="292c96f9cb18231528cac4b0bf17d28149d14809">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\transforms\dex\debug\folders\1000\2\guava-10.0.1_47537bb32553878891416e87933bd45f0b143110\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\libs\card.io.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6871955c5f3c7b8488036dd8308225d57b7dabee">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\card.io_7a96ff522bbfd3df9a2d0bd44dda013283a7deb8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hjh\.android\build-cache\c228344f26b7847efcb2ca8568bf46906678b011\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\classes_dfbfc1c507a4056ca029dd7600cac8bbfaeade1b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7ffbb6918d5c58aca0bf1e0319000901b1c04a1d">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_68e5b76976f452c64122478cdcc00f0fde74f737\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\libs\card.io.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6871955c5f3c7b8488036dd8308225d57b7dabee">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\transforms\dex\debug\folders\1000\2\card.io_7a96ff522bbfd3df9a2d0bd44dda013283a7deb8\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\libs\guava-10.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="292c96f9cb18231528cac4b0bf17d28149d14809">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\guava-10.0.1_47537bb32553878891416e87933bd45f0b143110.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hjh\.android\build-cache\cceb07bc8be3abdf6d6a0004c882ea39b28dd91d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\classes_08341dce5fd1fd506669a67dd53ed3d863f3235e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hjh\.android\build-cache\91c1fdc63ba32671ee724eabe7ff7effb1eebee7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\classes_a7a098abe1f7d0df4aa598b2b009841957e2c062.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hjh\.android\build-cache\1a774d05e413e55818f55988943f80ae96ec08f8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\classes_12c8afe41f01f1b4f4593efb39a32ea4d657698c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_77aca60f4441f133fd59dafa96dbc7baed6fb8b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hjh\.android\build-cache\f6649a964a16a70e5de2dc5f6ad0f793b1ecf93e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\classes_3221b5483e40a1066c9f9c7f2a3541edce689ea2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hjh\.android\build-cache\6818ffe81854957c42587d50996174e501dd55b1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\classes_6e7e49dbd07fb423236e572b59f6c3ffd5704278.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hjh\.android\build-cache\f39339050d4de673711c5ba4d18ce3fcd9239210\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\classes_f5570d8f16fd9847901d0b8e2e9533afd192595c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hjh\.android\build-cache\115f4f0db8660ff44edff1e904aca76a28372d81\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\classes_34ae108520f2391568d2551d7b30877af5a158c2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\libs\bluetooth le library.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ce2ef168ba2cba4f0a3090ade9b4c61c0863aad7">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\transforms\dex\debug\folders\1000\2\bluetooth le library_35bc23a55baefd407828abab741a1c40ea9bda6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\libs\bluetooth le library.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ce2ef168ba2cba4f0a3090ade9b4c61c0863aad7">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\bluetooth le library_35bc23a55baefd407828abab741a1c40ea9bda6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hjh\.android\build-cache\e7d8004ec0abbcff6b225fd9535904c85d6cf808\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\classes_4df0de9ae57d8bfcc77694880472b1e1ba654abe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hjh\.android\build-cache\618f18773e19f0052e3e394cda58f79a98a624f6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\classes_2e56688bb9b80d2b0fc8548881b9c9333463f62f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_3e20c50b734197369ff50dcde216c775cb51ece3\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\android_studio_ide_3.1.2\android_sdk_studio\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_d30a78458fa833840ae5c1e973cece202d3eddcc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\android_studio_ide_3.1.2\android_sdk_studio\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_64c65d21154c21d7d40d69b906eafa852639fdb2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="C:\android_studio_ide_3.1.2\Project\MyPay_lab\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_3e20c50b734197369ff50dcde216c775cb51ece3.jar" />
+    </item>
+
+</items>
