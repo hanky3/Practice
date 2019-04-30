@@ -73,7 +73,7 @@
 #### 7.1 Deep Learning 1차
 - Intro to Deep Learning [Link](https://www.youtube.com/watch?v=vOppzHpvTiQ&list=PL2-dafEMk2A7YdKv4XfKpfbTH5z6rEEj3)
 
-### 7.2 Machine Learning in Python [SafariOnline](https://learning.oreilly.com/home/)
+#### 7.2 Machine Learning in Python [SafariOnline](https://learning.oreilly.com/home/)
 - Ch12 - Implementing a Multilayer Artificial Neural Network from Scratch
 - Ch13 - Parallelizing Neural Network Training with TensorFlow
 
