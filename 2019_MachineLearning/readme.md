@@ -12,6 +12,7 @@
 - Practice(upload in github)
 - Python Machine Library 설치 (conda, tensorflow, scikit-learn, numpy, pandas ...) (O)
 
+****
 
 ## 2. Week 19 (~5/10) 
 #### 2.1 Mathmatics(2/4) : Calculus
@@ -22,6 +23,7 @@
 - Ch3 - A Tour of Machine Learning Classifiers Using scikit-learn
 - Practice
 
+****
 
 ## 3. Week 20 (~5/17)
 #### 3.1 Mathmatics(3/3) : Probability, Algorithms
@@ -33,6 +35,7 @@
 - Ch5 - Compressing Data via Dimensionality Reduction
 - Practice
 
+****
 
 ## 4. Week 21 (~5/24)
 #### 4.1 Learn Python Machine Learning Library --
@@ -44,6 +47,7 @@
 - Ch6 - Learning Best Practices for Model Evaluation and Hyperparameter Tuning
 - Ch7 - Combining Different Models for Ensemble Learning
 
+****
 
 ## 5. Week 22 (~5/31)
 #### 5.1 Intro to ML (Udacity)
@@ -53,6 +57,7 @@
 - Ch8 - Applying Machine Learning to Sentiment Analysis
 - Ch9 - Embedding a Machine Learning Model into a Web Application
 
+****
 
 ## 6. Week 23 (~6/7)
 #### 6.1 ML Project Ideas
@@ -62,6 +67,7 @@
 - Ch10 - Predicting Continuous Target Variables with Regression Analysis
 - Ch11 - Working with Unlabeled Data ? Clustering Analysis
 
+****
 
 ## 7. Week 24 (~6/14) 
 #### 7.1 Deep Learning 1차
@@ -71,6 +77,7 @@
 - Ch12 - Implementing a Multilayer Artificial Neural Network from Scratch
 - Ch13 - Parallelizing Neural Network Training with TensorFlow
 
+****
 
 ## 8. Week 25 (~6/21) 
 #### 8.1 Deep Learning 2차
