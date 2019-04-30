@@ -1,7 +1,7 @@
 # Machine Learning Study Plan(05~06)
 
 
-### 1. Week 18 (~5/3) ##
+## 1. Week 18 (~5/3) ##
 #### 1.1 Mathmatics(1/4) - Linear Algebra ###
 - [Linear Algebra Youtube Site](https://www.youtube.com/watch?v=kjBOesZCoqc&index=1&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 - [Lecture](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
@@ -13,7 +13,7 @@
 - Python Machine Library 설치 (conda, tensorflow, scikit-learn, numpy, pandas ...) (O)
 
 
-### 2. Week 19 (~5/10) 
+## 2. Week 19 (~5/10) 
 #### 2.1 Mathmatics(2/4) : Calculus
 - Calculus : [Calculus Youtube](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
 
@@ -23,7 +23,7 @@
 - Practice
 
 
-### 3. Week 20 (~5/17) ###
+## 3. Week 20 (~5/17)
 #### 3.1 Mathmatics(3/3) : Probability, Algorithms
 - Probability Lecture : [URL](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2)
 - Algorithm Lecture : [URL](https://www.edx.org/course/algorithm-design-analysis-pennx-sd3x)
@@ -34,7 +34,7 @@
 - Practice
 
 
-### 4. Week 21 (~5/24) ###
+## 4. Week 21 (~5/24)
 #### 4.1 Learn Python Machine Learning Library --
 - Learn python for data science : [URL](https://www.youtube.com/watch?v=T5pRlIbr6gg&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU)
 - Math of Intelligence : [URL](https://www.youtube.com/watch?v=xRJCOz3AfYY&list=PL2-dafEMk2A7mu0bSksCGMJEmeddU_H4D)
@@ -45,7 +45,7 @@
 - Ch7 - Combining Different Models for Ensemble Learning
 
 
-### 5. Week 22 (~5/31)
+## 5. Week 22 (~5/31)
 #### 5.1 Intro to ML (Udacity)
 - https://eu.udacity.com/course/intro-to-machine-learning--ud120
 
@@ -54,7 +54,7 @@
 - Ch9 - Embedding a Machine Learning Model into a Web Application
 
 
-### 6. Week 23 (~6/7)
+## 6. Week 23 (~6/7)
 #### 6.1 ML Project Ideas
 - https://github.com/NirantK/awesome-project-ideas
 
@@ -63,28 +63,28 @@
 - Ch11 - Working with Unlabeled Data ? Clustering Analysis
 
 
-### 7. Week 24 (~6/14) 
+## 7. Week 24 (~6/14) 
 #### 7.1 Deep Learning 1차
 - Intro to Deep Learning [Link](https://www.youtube.com/watch?v=vOppzHpvTiQ&list=PL2-dafEMk2A7YdKv4XfKpfbTH5z6rEEj3)
 
 ### 7.2 Machine Learning in Python [SafariOnline](https://learning.oreilly.com/home/)
- Ch12 - Implementing a Multilayer Artificial Neural Network from Scratch
- Ch13 - Parallelizing Neural Network Training with TensorFlow
+- Ch12 - Implementing a Multilayer Artificial Neural Network from Scratch
+- Ch13 - Parallelizing Neural Network Training with TensorFlow
 
 
 ## 8. Week 25 (~6/21) 
-### 8.1 Deep Learning 2차
-Deep Learning by Fast.AI http://course.fast.ai/
+#### 8.1 Deep Learning 2차
+- Deep Learning by Fast.AI http://course.fast.ai/
 
-### 8.2 Machine Learning in Python(SafariOnline)
-Ch14 - Going Deeper ? The Mechanics of TensorFlow
-Ch15 - Classifying Images with Deep Convolutional Neural Networks
+#### 8.2 Machine Learning in Python(SafariOnline)
+- Ch14 - Going Deeper ? The Mechanics of TensorFlow
+- Ch15 - Classifying Images with Deep Convolutional Neural Networks
        
 
 ## 9. Week 26 (~6/28) 
-### 9.1 Deep Learning 3차 
-: Re-implement DL projects from my github https://github.com/llSourcell?tab=repositories
+#### 9.1 Deep Learning 3차 
+- Re-implement DL projects from my github https://github.com/llSourcell?tab=repositories
 
-### 9.2 Final Projects 
+#### 9.2 Final Projects 
 - Reinforcement Learning(AI Game Engine(Janggi - bot))
 
