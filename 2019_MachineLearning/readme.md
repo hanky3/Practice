@@ -57,6 +57,8 @@
 - Ch8 - Applying Machine Learning to Sentiment Analysis
 - Ch9 - Embedding a Machine Learning Model into a Web Application
 
+#### 5.3 PANDAS 10 minuts
+- 10 minutes in Pandas[Link](https://dataitgirls2.github.io/10minutes2pandas)
 ****
 
 ## Week 6 (~6/7)
