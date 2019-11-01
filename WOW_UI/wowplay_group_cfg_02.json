@@ -1,0 +1,55 @@
+{
+  "Group_Info_0" : {
+    "Group_Check" : 1,
+    "Channel_Cfg" : "5.1",
+    "Topology_Cfg" : "Multi-Channel",
+    "Group_Name" : "5_1 Multi-Channel",
+    "Devices" : [
+      {"Mac Addr" : "11:22:33:44:55:66", "Role": 0, "Channel" : "FL:FR:FC", "Volume" : 0},
+      {"Mac Addr" : "12:45:33:44:55:66", "Role": 1, "Channel" : "FL", "Volume" : 10},
+      {"Mac Addr" : "13:45:33:44:55:66", "Role": 1, "Channel" : "FR", "Volume" : 20},
+      {"Mac Addr" : "14:45:33:44:55:66", "Role": 1, "Channel" : "FC", "Volume" : 30},
+      {"Mac Addr" : "15:45:33:44:55:66", "Role": 1, "Channel" : "LF", "Volume" : 40},
+      {"Mac Addr" : "16:45:33:44:55:66", "Role": 1, "Channel" : "RL", "Volume" : 50}
+    ]
+  },
+  "Group_Info_1" : {
+    "Group_Check" : 1,
+    "Channel_Cfg" : "Stereo",
+    "Topology_Cfg" : "Multi-Room",
+    "Group_Name" : "Stereo Multi-Room",
+    "Devices" : [
+      {"Mac Addr" : "21:22:33:44:55:66", "Role": 0, "Channel" : "FL:FR:FC", "Volume" : 0},
+      {"Mac Addr" : "22:45:33:44:55:66", "Role": 1, "Channel" : "FL", "Volume" : 10},
+      {"Mac Addr" : "23:45:33:44:55:66", "Role": 1, "Channel" : "FR", "Volume" : 20},
+      {"Mac Addr" : "24:45:33:44:55:66", "Role": 1, "Channel" : "FC", "Volume" : 30},
+      {"Mac Addr" : "25:45:33:44:55:66", "Role": 1, "Channel" : "LF", "Volume" : 40},
+      {"Mac Addr" : "26:45:33:44:55:66", "Role": 1, "Channel" : "RL", "Volume" : 50},
+      {"Mac Addr" : "27:45:33:44:55:66", "Role": 1, "Channel" : "RR", "Volume" : 60},
+      {"Mac Addr" : "28:45:33:44:55:66", "Role": 1, "Channel" : "SL", "Volume" : 70},
+      {"Mac Addr" : "29:45:33:44:55:66", "Role": 1, "Channel" : "SR", "Volume" : 80}
+    ]
+  },
+
+  "Role_Info" : {"Master": 0, "Slave": 1},
+  "Channel_Info" : {
+    "FL" : 0,
+    "FR" : 1,
+    "FC" : 2,
+    "LF" : 3,
+    "RL" : 4,
+    "RR" : 5,
+    "FLC" : 6,
+    "FRC" : 7,
+    "RC" : 8,
+    "SL" : 9,
+    "SR" : 10,
+    "TC" : 11,
+    "TFL" : 12,
+    "TFC" : 13,
+    "TFR" : 14,
+    "TRL" : 15,
+    "TRC" : 16,
+    "TRR" : 17
+  }
+}

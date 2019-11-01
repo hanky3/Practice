@@ -8,7 +8,12 @@
 # WARNING! All changes made in this file will be lost!Py
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import *
+from PyQt5.QtWidgets import *
+from PyQt5.QtGui import QIcon
+import time
+
 import threading
+import json
 import datetime
 from remote_context import *
 from remote_data_convert import *
@@ -84,6 +89,7 @@ class Ui_MainWindow(QObject):
 
         self.Timer = QTimer(self)
 
+        self.volume_commands = []
 
         self.WoWIF = []
         MainWindow.setObjectName("MainWindow")
@@ -684,6 +690,7 @@ class Ui_MainWindow(QObject):
         self.gridLayout_12 = QtWidgets.QGridLayout(self.gridLayoutWidget_12)
         self.gridLayout_12.setContentsMargins(0, 0, 0, 0)
         self.gridLayout_12.setObjectName("gridLayout_12")
+
         self.group1_Concurr_Radio = QtWidgets.QRadioButton(self.gridLayoutWidget_12)
         self.group1_Concurr_Radio.setObjectName("group1_Concurr_Radio")
         self.gridLayout_12.addWidget(self.group1_Concurr_Radio, 0, 2, 1, 1)
@@ -1252,16 +1259,237 @@ class Ui_MainWindow(QObject):
         self.passwd_LineEdit.setGeometry(QtCore.QRect(730, 40, 171, 20))
         self.passwd_LineEdit.setObjectName("passwd_LineEdit")
         MainWindow.setCentralWidget(self.centralwidget)
-        self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1244, 21))
-        self.menubar.setObjectName("menubar")
-        MainWindow.setMenuBar(self.menubar)
+
+        self.main_window = MainWindow
+        self.menubar1 = MainWindow.menuBar()
+        fileMenu = self.menubar1.addMenu('File')
+        loadAct = QAction('&Load Config', self)
+        loadAct.setShortcut('Ctrl+L')
+        loadAct.setStatusTip('Load WoWPlay Group Config!!')
+        loadAct.triggered.connect(self.loadFile)
+        fileMenu.addAction(loadAct)
+
+        exitAct = QAction('&Exit', self)
+        exitAct.setShortcut('Ctrl+Q')
+        exitAct.setStatusTip('Exit application')
+        exitAct.triggered.connect(self.exit)
+        fileMenu.addAction(exitAct)
+
+        #self.menubar = QtWidgets.QMenuBar(MainWindow)
+        #self.menubar.setGeometry(QtCore.QRect(0, 0, 1244, 21))
+        #self.menubar.setObjectName("menubar")
+        #MainWindow.setMenuBar(self.menubar)
+
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
 
+
+
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+        self.group_ui_list = [
+            {
+                'check_box' : self.group0_CheckBox,
+                'group_name' : self.group0_Name_LineEdit,
+                'device_list' : [
+                    {"check": self.group0_Device0_CheckBox,
+                     "mac_addr": [self.group0_Device0_Mac0_lineEdit, self.group0_Device0_Mac1_lineEdit,
+                                  self.group0_Device0_Mac2_lineEdit,
+                                  self.group0_Device0_Mac3_lineEdit, self.group0_Device0_Mac4_lineEdit,
+                                  self.group0_Device0_Mac5_lineEdit],
+                     "role": self.group0_Device0_Role_LineEdit,
+                     "channel": self.group0_Device0_Channel_LineEdit,
+                     "volume": self.group0_Device0_Vol_LineEdit},
+                    {"check": self.group0_Device1_CheckBox,
+                     "mac_addr": [self.group0_Device1_Mac0_lineEdit, self.group0_Device1_Mac1_lineEdit,
+                                  self.group0_Device1_Mac2_lineEdit,
+                                  self.group0_Device1_Mac3_lineEdit, self.group0_Device1_Mac4_lineEdit,
+                                  self.group0_Device1_Mac5_lineEdit],
+                     "role": self.group0_Device1_Role_LineEdit,
+                     "channel": self.group0_Device1_Channel_LineEdit,
+                     "volume": self.group0_Device1_Vol_LineEdit},
+                    {"check": self.group0_Device2_CheckBox,
+                     "mac_addr": [self.group0_Device2_Mac0_lineEdit, self.group0_Device2_Mac1_lineEdit,
+                                  self.group0_Device2_Mac2_lineEdit,
+                                  self.group0_Device2_Mac3_lineEdit, self.group0_Device2_Mac4_lineEdit,
+                                  self.group0_Device2_Mac5_lineEdit],
+                     "role": self.group0_Device2_Role_LineEdit,
+                     "channel": self.group0_Device2_Channel_LineEdit,
+                     "volume": self.group0_Device2_Vol_LineEdit},
+                    {"check": self.group0_Device3_CheckBox,
+                     "mac_addr": [self.group0_Device3_Mac0_lineEdit, self.group0_Device3_Mac1_lineEdit,
+                                  self.group0_Device3_Mac2_lineEdit,
+                                  self.group0_Device3_Mac3_lineEdit, self.group0_Device3_Mac4_lineEdit,
+                                  self.group0_Device3_Mac5_lineEdit],
+                     "role": self.group0_Device3_Role_LineEdit,
+                     "channel": self.group0_Device3_Channel_LineEdit,
+                     "volume": self.group0_Device3_Vol_LineEdit},
+                    {"check": self.group0_Device4_CheckBox,
+                     "mac_addr": [self.group0_Device4_Mac0_lineEdit, self.group0_Device4_Mac1_lineEdit,
+                                  self.group0_Device4_Mac2_lineEdit,
+                                  self.group0_Device4_Mac3_lineEdit, self.group0_Device4_Mac4_lineEdit,
+                                  self.group0_Device4_Mac5_lineEdit],
+                     "role": self.group0_Device4_Role_LineEdit,
+                     "channel": self.group0_Device4_Channel_LineEdit,
+                     "volume": self.group0_Device4_Vol_LineEdit},
+                    {"check": self.group0_Device5_CheckBox,
+                     "mac_addr": [self.group0_Device5_Mac0_lineEdit, self.group0_Device5_Mac1_lineEdit,
+                                  self.group0_Device5_Mac2_lineEdit,
+                                  self.group0_Device5_Mac3_lineEdit, self.group0_Device5_Mac4_lineEdit,
+                                  self.group0_Device5_Mac5_lineEdit],
+                     "role": self.group0_Device5_Role_LineEdit,
+                     "channel": self.group0_Device5_Channel_LineEdit,
+                     "volume": self.group0_Device5_Vol_LineEdit},
+                    {"check": self.group0_Device6_CheckBox,
+                     "mac_addr": [self.group0_Device6_Mac0_lineEdit, self.group0_Device6_Mac1_lineEdit,
+                                  self.group0_Device6_Mac2_lineEdit,
+                                  self.group0_Device6_Mac3_lineEdit, self.group0_Device6_Mac4_lineEdit,
+                                  self.group0_Device6_Mac5_lineEdit],
+                     "role": self.group0_Device6_Role_LineEdit,
+                     "channel": self.group0_Device6_Channel_LineEdit,
+                     "volume": self.group0_Device6_Vol_LineEdit},
+                    {"check": self.group0_Device7_CheckBox,
+                     "mac_addr": [self.group0_Device7_Mac0_lineEdit, self.group0_Device7_Mac1_lineEdit,
+                                  self.group0_Device7_Mac2_lineEdit,
+                                  self.group0_Device7_Mac3_lineEdit, self.group0_Device7_Mac4_lineEdit,
+                                  self.group0_Device7_Mac5_lineEdit],
+                     "role": self.group0_Device7_Role_LineEdit,
+                     "channel": self.group0_Device7_Channel_LineEdit,
+                     "volume": self.group0_Device7_Vol_LineEdit},
+                    {"check": self.group0_Device8_CheckBox,
+                     "mac_addr": [self.group0_Device8_Mac0_lineEdit, self.group0_Device8_Mac1_lineEdit,
+                                  self.group0_Device8_Mac2_lineEdit,
+                                  self.group0_Device8_Mac3_lineEdit, self.group0_Device8_Mac4_lineEdit,
+                                  self.group0_Device8_Mac5_lineEdit],
+                     "role": self.group0_Device8_Role_LineEdit,
+                     "channel": self.group0_Device8_Channel_LineEdit,
+                     "volume": self.group0_Device8_Vol_LineEdit}
+                ],
+                "channel_list" : {
+                    "Mono": self.group0_Mono_Radio,
+                    "Stereo": self.group0_Stereo_Radio,
+                    "3.1.2": self.group0_312_Radio,
+                    "5.1": self.group0_51_Radio,
+                    "5.1.2": self.group0_512_Radio,
+                    "7.1": self.group0_71_Radio,
+                    "7.1.2": self.group0_712_Radio,
+                    "7.1.4": self.group0_714_Radio
+                },
+                "topology_list" : {
+                    "Multi-Channel": self.group0_MultiCh_Radio,
+                    "Multi-Room": self.group0_MultiRo_Radio,
+                    "Concurrent": self.group0_Concurr_Radio
+                }
+            },
+
+            {
+                'check_box': self.group1_CheckBox,
+                'group_name': self.group1_Name_LineEdit,
+                'device_list': [
+                    {"check": self.group1_Device0_CheckBox,
+                     "mac_addr": [self.group1_Device0_Mac0_lineEdit, self.group1_Device0_Mac1_lineEdit,
+                                  self.group1_Device0_Mac2_lineEdit,
+                                  self.group1_Device0_Mac3_lineEdit, self.group1_Device0_Mac4_lineEdit,
+                                  self.group1_Device0_Mac5_lineEdit],
+                     "role": self.group1_Device0_Role_LineEdit,
+                     "channel": self.group1_Device0_Channel_LineEdit,
+                     "volume": self.group1_Device0_Vol_LineEdit},
+                    {"check": self.group1_Device1_CheckBox,
+                     "mac_addr": [self.group1_Device1_Mac0_lineEdit, self.group1_Device1_Mac1_lineEdit,
+                                  self.group1_Device1_Mac2_lineEdit,
+                                  self.group1_Device1_Mac3_lineEdit, self.group1_Device1_Mac4_lineEdit,
+                                  self.group1_Device1_Mac5_lineEdit],
+                     "role": self.group1_Device1_Role_LineEdit,
+                     "channel": self.group1_Device1_Channel_LineEdit,
+                     "volume": self.group1_Device1_Vol_LineEdit},
+                    {"check": self.group1_Device2_CheckBox,
+                     "mac_addr": [self.group1_Device2_Mac0_lineEdit, self.group1_Device2_Mac1_lineEdit,
+                                  self.group1_Device2_Mac2_lineEdit,
+                                  self.group1_Device2_Mac3_lineEdit, self.group1_Device2_Mac4_lineEdit,
+                                  self.group1_Device2_Mac5_lineEdit],
+                     "role": self.group1_Device2_Role_LineEdit,
+                     "channel": self.group1_Device2_Channel_LineEdit,
+                     "volume": self.group1_Device2_Vol_LineEdit},
+                    {"check": self.group1_Device3_CheckBox,
+                     "mac_addr": [self.group1_Device3_Mac0_lineEdit, self.group1_Device3_Mac1_lineEdit,
+                                  self.group1_Device3_Mac2_lineEdit,
+                                  self.group1_Device3_Mac3_lineEdit, self.group1_Device3_Mac4_lineEdit,
+                                  self.group1_Device3_Mac5_lineEdit],
+                     "role": self.group1_Device3_Role_LineEdit,
+                     "channel": self.group1_Device3_Channel_LineEdit,
+                     "volume": self.group1_Device3_Vol_LineEdit},
+                    {"check": self.group1_Device4_CheckBox,
+                     "mac_addr": [self.group1_Device4_Mac0_lineEdit, self.group1_Device4_Mac1_lineEdit,
+                                  self.group1_Device4_Mac2_lineEdit,
+                                  self.group1_Device4_Mac3_lineEdit, self.group1_Device4_Mac4_lineEdit,
+                                  self.group1_Device4_Mac5_lineEdit],
+                     "role": self.group1_Device4_Role_LineEdit,
+                     "channel": self.group1_Device4_Channel_LineEdit,
+                     "volume": self.group1_Device4_Vol_LineEdit},
+                    {"check": self.group1_Device5_CheckBox,
+                     "mac_addr": [self.group1_Device5_Mac0_lineEdit, self.group1_Device5_Mac1_lineEdit,
+                                  self.group1_Device5_Mac2_lineEdit,
+                                  self.group1_Device5_Mac3_lineEdit, self.group1_Device5_Mac4_lineEdit,
+                                  self.group1_Device5_Mac5_lineEdit],
+                     "role": self.group1_Device5_Role_LineEdit,
+                     "channel": self.group1_Device5_Channel_LineEdit,
+                     "volume": self.group1_Device5_Vol_LineEdit},
+                    {"check": self.group1_Device6_CheckBox,
+                     "mac_addr": [self.group1_Device6_Mac0_lineEdit, self.group1_Device6_Mac1_lineEdit,
+                                  self.group1_Device6_Mac2_lineEdit,
+                                  self.group1_Device6_Mac3_lineEdit, self.group1_Device6_Mac4_lineEdit,
+                                  self.group1_Device6_Mac5_lineEdit],
+                     "role": self.group1_Device6_Role_LineEdit,
+                     "channel": self.group1_Device6_Channel_LineEdit,
+                     "volume": self.group1_Device6_Vol_LineEdit},
+                    {"check": self.group1_Device7_CheckBox,
+                     "mac_addr": [self.group1_Device7_Mac0_lineEdit, self.group1_Device7_Mac1_lineEdit,
+                                  self.group1_Device7_Mac2_lineEdit,
+                                  self.group1_Device7_Mac3_lineEdit, self.group1_Device7_Mac4_lineEdit,
+                                  self.group1_Device7_Mac5_lineEdit],
+                     "role": self.group1_Device7_Role_LineEdit,
+                     "channel": self.group1_Device7_Channel_LineEdit,
+                     "volume": self.group1_Device7_Vol_LineEdit},
+                    {"check": self.group1_Device8_CheckBox,
+                     "mac_addr": [self.group1_Device8_Mac0_lineEdit, self.group1_Device8_Mac1_lineEdit,
+                                  self.group1_Device8_Mac2_lineEdit,
+                                  self.group1_Device8_Mac3_lineEdit, self.group1_Device8_Mac4_lineEdit,
+                                  self.group1_Device8_Mac5_lineEdit],
+                     "role": self.group1_Device8_Role_LineEdit,
+                     "channel": self.group1_Device8_Channel_LineEdit,
+                     "volume": self.group1_Device8_Vol_LineEdit}
+                ],
+                "channel_list": {
+                    "Mono": self.group1_Mono_Radio,
+                    "Stereo": self.group1_Stereo_Radio,
+                    "3.1.2": self.group1_312_Radio,
+                    "5.1": self.group1_51_Radio,
+                    "5.1.2": self.group1_512_Radio,
+                    "7.1": self.group1_71_Radio,
+                    "7.1.2": self.group1_712_Radio,
+                    "7.1.4": self.group1_714_Radio
+                },
+                "topology_list": {
+                    "Multi-Channel": self.group1_MultiCh_Radio,
+                    "Multi-Room": self.group1_MultiRo_Radio,
+                    "Concurrent": self.group1_Concurr_Radio
+                }
+            }
+        ]
+
+    def loadFile(self):
+        options = QFileDialog.Options()
+        options |= QFileDialog.DontUseNativeDialog
+        fileName, _ = QFileDialog.getOpenFileName(self.main_window,"QFileDialog.getOpenFileName()", "","JSON Files (*.json)", options=options)
+        if fileName:
+            self.loadCfg(fileName)
+
+    def exit(self):
+        stopPythonServer()
+        time.sleep(0.5)
+        sys.exit(0)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
@@ -1405,6 +1633,8 @@ class Ui_MainWindow(QObject):
 
         self.WoWIF = state_main()
 
+
+
     # Event Handler
     def setAddrButton_Handler(self):
         setAddrButton_Handler_func(self)
@@ -1448,6 +1678,58 @@ class Ui_MainWindow(QObject):
     def Timeout_Handler(self):
         timeOut_Handler_func(self)
 
+    def loadCfg(self, cfg_file: str):
+        if cfg_file is None:
+            return
+
+        with open(cfg_file) as json_cfg:
+            data = json.load(json_cfg)
+            group_info_list = [None, None]
+            if 'Group_Info_0' in data:
+                group_info_list[0] = data['Group_Info_0']
+            if 'Group_Info_1' in data:
+                group_info_list[1] = data['Group_Info_1']
+
+            for group_ui in self.group_ui_list :
+                group_ui['check_box'].setChecked(False)
+                group_ui['group_name'].setText('')
+
+                for channel_radio in group_ui['channel_list'].values():
+                    channel_radio.setChecked(False)
+
+                for topology_radio in group_ui['topology_list'].values():
+                    topology_radio.setChecked(False)
+
+                for ui in group_ui['device_list'] :
+                    ui['check'].setChecked(False)
+                    for mac_edit in ui['mac_addr']:
+                        mac_edit.setText('')
+                    ui['role'].setText('')
+                    ui['channel'].setText('')
+                    ui['volume'].setText('')
+
+            for group_idx, group_info in enumerate(group_info_list) :
+                if group_info is None :
+                    continue
+
+                self.group_ui_list[group_idx]['check_box'].setChecked(group_info['Group_Check'] == 1)
+                self.group_ui_list[group_idx]['group_name'].setText(group_info['Group_Name'])
+                for key in self.group_ui_list[group_idx]['channel_list']:
+                    self.group_ui_list[group_idx]['channel_list'][key].setChecked(group_info['Channel_Cfg'] == key)
+                for key in self.group_ui_list[group_idx]['topology_list']:
+                    self.group_ui_list[group_idx]['topology_list'][key].setChecked(group_info['Topology_Cfg'] == key)
+
+                device_ui_list = self.group_ui_list[group_idx]['device_list']
+                for id, dev_info in enumerate(group_info['Devices']):
+                    device_ui_list[id]['check'].setChecked(True)
+                    mac_addrs = dev_info['Mac Addr'].strip().split(':')
+                    for pos in range(len(mac_addrs)):
+                        device_ui_list[id]['mac_addr'][pos].setText(mac_addrs[pos])
+                    device_ui_list[id]['role'].setText(str(dev_info['Role']))
+                    channelBits = sum((1 << data['Channel_Info'][ch]) for ch in dev_info['Channel'].split(":"))
+                    device_ui_list[id]['channel'].setText('%X' % channelBits)
+                    device_ui_list[id]['volume'].setText(str(dev_info['Volume']))
+
 
 if __name__ == "__main__":
     import sys
@@ -1458,12 +1740,12 @@ if __name__ == "__main__":
     ui.setupUi(MainWindow)
     MainWindow.show()
 
+    #ui.loadCfg('wowplay_group_cfg_01.json')
+
     sock_init()
 
     t = threading.Thread(target=pythonServer, args=(ui,))
     t.start()
-
-
 
     sys.exit(app.exec_())
 
