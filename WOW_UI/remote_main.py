@@ -21,7 +21,7 @@ from remote_server import *
 from remote_client import *
 from remote_event_handler import *
 from state_main import *
-
+from remote_device_server import *
 
 class Ui_MainWindow(QObject):
     receive_signal = pyqtSignal(bytes)
@@ -639,6 +639,11 @@ class Ui_MainWindow(QObject):
         self.label_17 = QtWidgets.QLabel(self.groupBox)
         self.label_17.setGeometry(QtCore.QRect(487, 130, 61, 20))
         self.label_17.setObjectName("label_17")
+
+        self.group0_volume_button = QtWidgets.QPushButton(self.groupBox)
+        self.group0_volume_button.setGeometry(QtCore.QRect(400, 130, 80, 40))
+        self.group0_volume_button.setText('Set Volume')
+
         self.addr_LineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.addr_LineEdit.setGeometry(QtCore.QRect(10, 21, 171, 20))
         self.addr_LineEdit.setObjectName("addr_LineEdit")
@@ -1246,6 +1251,10 @@ class Ui_MainWindow(QObject):
         self.log_TextBrowser = QtWidgets.QTextBrowser(self.centralwidget)
         self.log_TextBrowser.setGeometry(QtCore.QRect(10, 720, 1151, 181))
         self.log_TextBrowser.setObjectName("log_TextBrowser")
+        self.clear_Button = QtWidgets.QPushButton(self.centralwidget)
+        self.clear_Button.setGeometry(QtCore.QRect(1165, 720, 60, 31))
+        self.clear_Button.setText('Clear')
+
         self.ssid_LineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.ssid_LineEdit.setGeometry(QtCore.QRect(730, 10, 171, 20))
         self.ssid_LineEdit.setObjectName("ssid_LineEdit")
@@ -1630,6 +1639,8 @@ class Ui_MainWindow(QObject):
         self.down_Button.clicked.connect(self.downButton_Handler)
 
         self.Timer.timeout.connect(self.Timeout_Handler)
+        self.group0_volume_button.clicked.connect(self.setGroup0VolumeButton_Handler)
+        self.clear_Button.clicked.connect((lambda : self.log_TextBrowser.clear()))
 
         self.WoWIF = state_main()
 
@@ -1677,6 +1688,15 @@ class Ui_MainWindow(QObject):
 
     def Timeout_Handler(self):
         timeOut_Handler_func(self)
+
+    def setGroup0VolumeButton_Handler(self):
+        self.volume_commands.clear()
+        group_ui = self.group_ui_list[0]
+        for device_id, ui in enumerate(group_ui['device_list']):
+            if ui['check'].isChecked() :
+                volume = int(ui['volume'].text()) if ui['volume'].text() is not "" else 0
+                self.volume_commands.append((device_id, volume))
+        self.send_remain_volume_req()
 
     def loadCfg(self, cfg_file: str):
         if cfg_file is None:
@@ -1730,6 +1750,19 @@ class Ui_MainWindow(QObject):
                     device_ui_list[id]['channel'].setText('%X' % channelBits)
                     device_ui_list[id]['volume'].setText(str(dev_info['Volume']))
 
+    def send_remain_volume_req(self):
+        if len(self.volume_commands) == 0 :
+            return
+        device_id, volume = self.volume_commands.pop(0)
+        log = datetime.datetime.now().strftime("[%H:%M:%S]")
+        log += " Sends Set Abs Volume Request : Device Id(%d), Volume(%d) "%(device_id, volume)
+        ui.log_TextBrowser.append(log)
+
+        time.sleep(0.05)
+        send_SetAbsVolumeReq(self, device_id, volume)
+
+
+
 
 if __name__ == "__main__":
     import sys
@@ -1746,6 +1779,9 @@ if __name__ == "__main__":
 
     t = threading.Thread(target=pythonServer, args=(ui,))
     t.start()
+
+    server = WowPlayRemoteServer(CPP_PORT)
+    server.start()
 
     sys.exit(app.exec_())
 

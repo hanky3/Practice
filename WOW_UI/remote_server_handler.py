@@ -646,6 +646,7 @@ def set_GroupAbsVolumeRsp_Handler(ui, rcvData):
         log += " Set Group Abs Volume failed. Reason: "
         log += str(rcvData[1])
         ui.log_TextBrowser.append(log)
+    ui.send_remain_volume_req()
 
     # TODO: To Update Volume in the GUI, get_GroupVolume is sent automatically
 
